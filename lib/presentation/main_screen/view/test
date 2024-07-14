@@ -1,0 +1,15 @@
+
+
+
+                                              Text(
+                                            'Pressure'.tr,
+                                            style: TextStyle(fontSize: 14),
+                                          )
+
+                                          Text(
+                                              '${controller.current.pressureMb}\n${"Mbar".tr}',
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.bold),
+                                            )

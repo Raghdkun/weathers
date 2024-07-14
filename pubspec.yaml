@@ -1,0 +1,132 @@
+name: weather_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  
+  # workmanager: ^0.5.2
+  flutter_screenutil: ^5.9.0
+  custom_refresh_indicator: ^3.0.0
+  flutter_dotenv: ^5.1.0
+  
+  permission_handler: 
+  auto_start_flutter: ^0.1.1
+  # connectivity_plus: 
+  # shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  expandable: ^5.0.1
+  # flutter_svg: ^1.1.6
+  intl: ^0.19.0
+  geolocator: ^10.1.0
+  # location: ^5.0.3
+  # card_swiper: ^3.0.1
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  # device_preview: any
+  drag_select_grid_view: ^0.6.2
+  # flutter_animated_icons: ^1.0.1
+  # file_picker: ^6.1.1
+  # firebase_auth: ^4.8.0
+  # firebase_core: ^2.15.1
+  # firebase_dynamic_links: ^5.1.1
+  # firebase_messaging: ^14.6.7
+  # firebase_storage: ^11.2.6
+  # flutter_offline: ^2.0.0
+  flutter_local_notifications: ^16.2.0
+  # flutter_offline: ^3.0.0
+  flutter_share: ^2.0.0
+  flutter_svg: ^2.0.9
+  fluttericon: ^2.0.0
+  font_awesome_flutter: ^10.1.0
+  google_sign_in: ^6.1.4
+  grouped_list: ^5.1.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.1.0
+  # image_picker: ^1.0.5
+  # image_pickers: ^2.0.0+2
+  internet_connection_checker: ^1.0.0+1
+  jiffy: ^6.2.1
+  lottie: ^2.7.0
+  animated_icon: ^0.0.5
+  responsive_builder: ^0.4.2
+  responsive_framework: ^0.1.6
+  search_helper: ^0.0.7
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  url_launcher: ^6.1.2
+  animate_do: ^3.1.2
+  animation_search_bar: ^0.0.10
+  awesome_notifications: ^0.8.3
+  flutter_background_service: ^5.0.5
+  weather_icons: ^3.0.0
+  app_bar_with_search_switch: ^1.7.0
+  connection_status_bar: ^1.1.6
+  flutter_offline: ^2.0.0
+  awesome_dialog: ^3.2.0
+  app_settings: ^5.1.1
+  fluttertoast: ^8.2.4
+  flutter_phoenix: ^1.1.1
+#  location:
+
+  # restart_app: ^1.2.1
+  # permission_handler: ^11.1.0
+  # awesome_notifications_core: ^0.8.0
+  
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  icons_launcher: ^2.1.6
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/lottie/
+    - assets/images/flags/
+    - assets/images/iconsday/
+    - assets/images/iconsnight/
+    - shorebird.yaml
+    - .env
+
+icons_launcher:
+  image_path: "assets/images/icon.jpeg"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+
+
+  fonts: 
+    - family: Roboto Condensed
+      fonts: 
+        - asset: assets/fonts/RobotoCondensedBold.ttf
+          weight: 700
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoBold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoExtraBold.ttf
+          weight: 800
+    - family: SingleDay
+      fonts: 
+        - asset: assets/fonts/SingleDay-Regular.ttf
+          weight: 700 
+    - family: oswald
+      fonts: 
+        - asset: assets/fonts/Oswald-Regular.ttf
+          weight: 700
+    - family: Overlock
+      fonts: 
+        - asset: assets/fonts/OverlockSC-Regular.ttf
+          weight: 700                 
